@@ -1,0 +1,925 @@
+/* GENERAL*/
+* {
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+   }
+   
+   
+   
+   
+   .header{
+     
+       font-family: 'Geologica', sans-serif;
+     /* ancho cambiar desp por otro tipo de letra */
+       
+   }
+   
+   
+   
+   
+   .texto1{
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 23px;
+       color: rgb(134, 239, 28); 
+       padding: 12rem;
+   }
+   
+   .imagen1{
+       border-radius: 2%;
+       width: 100%;
+   }
+   
+   .imagen2{
+       width: 100%;
+       border-radius: 2%;
+       
+   }
+   
+       
+   
+   
+   nav{background-color: rgb(0, 0, 0);
+   }
+   
+   
+   .div_menu{ background-color:rgb(0, 0, 0);
+       font-family:Verdana, Geneva, Tahoma, sans-serif
+   
+   }
+   
+   a{
+       
+       color: aliceblue;}
+   
+   
+   .suplementos{ color: whitesmoke;
+   
+   }
+   .menu_movile{
+       color: whitesmoke;
+   
+   }
+   
+   .menu_movildos{
+       color: whitesmoke;
+   }
+   
+   
+   .main_index{
+       padding: 120px;
+       background-image: url(../img/index3.jpg);
+       background-repeat: no-repeat;
+       padding-top: 10px;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr); 
+       gap: 1rem;
+       
+   }
+   
+   /*                                    MOVIL INDEX */
+   
+   
+   
+   .navbar-toggler{
+       display: none;
+   }
+   
+   
+   
+   
+   /* HEADER*/
+   
+   .Header_de_la_pagina{
+       background-color:black rgb(225, 20, 0,.146);
+       position: fixed;
+       width: 100%;
+       
+   
+   }
+   
+   
+   .NUESTRASREDES{
+   
+   color:aliceblue ;
+   
+   
+   
+   }
+   #enlaces{
+       position: absolute;
+   
+   
+       margin-top: 20px;
+   
+       color: rgb(255, 255, 255);
+   }
+   
+   /* FAVICON  */
+    .miniatura{ width: 120px;}
+   
+    /* Suplementos descuento */
+    .lorem{
+       text-align: end;
+    padding: 20px;
+   
+   
+   }
+   
+   
+   /* INDEX */
+   @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500;700;800;900&display=swap');
+   .barra_de_inicio_fixed{
+       display: flex;
+   
+       height: auto;
+       background-color: black;
+       
+       justify-content:space-between;
+       font-size: 2rem;
+      
+   }
+   
+   
+       
+   
+   
+   /* BARRA FIXED */
+   
+       
+       .enlaces_de_la_barra_fixed{
+           justify-content: space-between;/*  --> sumamos esto, para que quede un elemento a cada lado. */
+           display: flex;
+           text-decoration: none;
+           background-color: black;
+           padding: 0 30px;
+           font-size: 2rem;
+           height: auto;
+           position: fixed;
+           width: 100%;
+          /* background-color: black; */
+       
+       }
+   
+       
+   
+   
+       /* Menu de enlaces */
+   
+       .enlaces_de_la_barra_fixed ul{
+   
+           display: flex;
+     
+   
+           text-decoration: none;
+   
+           padding: 0 30px;
+   
+           font-size: 1.5rem;
+   
+           height: auto;
+       list-style: none;
+       align-items: center;   /* los alineamos  /*/
+   
+   
+   
+   
+   }
+   
+   .enlaces_de_la_barra_fixed ul li{
+       padding:0 14px;
+       text-decoration:none; 
+       display: flex;
+   
+       
+       }
+   
+       .enlaces_de_la_barra_fixed ul li a{
+           text-decoration:none;
+           font-weight: bold;
+           transition: all 0.5s; ;
+           font-family: "Geologica"
+           
+           }
+           
+           
+       .enlaces_de_la_barra_fixed a:hover{
+           padding:  5px 10px ;  
+           color: rgb(78, 223, 78);
+           background-color: rgb(255, 255, 255);
+           border-radius: 15px;
+   
+      
+           
+       }
+   
+   /* BARRA FIXED */
+     
+   
+   
+   
+   /* Padding para tener espacio entre el fixed y el main */
+   
+   
+   
+   /* Imanes y textos  */
+   
+   .CONTENEDOR_FLEX_IMG{
+   
+       display: flex;
+       flex-direction: row;
+       flex-wrap:nowrap;
+       justify-content: center;
+       align-items: center;
+       margin-left: 600px auto ; 
+       width: 50%;
+       height: 300px;
+   
+    
+       
+   }
+   
+   
+   body{ background-color:rgb(0, 7, 10);}
+   
+   
+   /* Fotos y textos INDEX */
+   
+   
+   
+   .imagen3{
+       width: 100%;
+   
+   }
+   
+   /* ENLACES "A HREF" */
+   
+       
+   
+   
+   .index:hover{
+   
+       color: rgb(0, 255, 34);
+   
+   }
+   
+   
+   
+      
+   
+   
+   .horarios:hover{
+       color: rgb(0, 255, 34);
+   }
+   
+   
+   
+   
+   .login:hover{
+       color: rgb(0, 255, 34);
+       
+   }
+   
+   
+   .contraseña{color: rgb(255, 255, 255);
+   }
+   
+   .contacto{color: rgb(255, 255, 255);}
+   .contacto:hover{
+       color: rgb(0, 255, 34);
+   }
+   
+   
+       .suplementos:hover{
+           color: rgb(0, 255, 34);
+   
+   
+       }
+   
+   
+   
+   
+   /* SUPLEMENTOS */
+   
+   .carrito {
+       display: flex;
+       justify-content: end;
+       padding-right: 5%;
+       }
+   
+   .body_suplementos{
+       background-color: rgb(45, 18, 70);
+   }
+   
+   /*es la parte de envio gratis en suplementos */
+   .box_top{ 
+       padding: 4px 0;
+       text-align: center;
+       color: rgb(0, 0, 0);
+       font-size: .9em;
+       background-color: aliceblue;
+   
+   }
+   
+   .main_suplementos{ margin-top: 150px;
+   
+   }
+   
+   
+   
+   .nombre{
+       border:2px solid rgb(0, 0, 0);
+   
+   }
+   
+   
+   
+   /* Flex box suplementos */       /* como ubicar muchos contenedores */
+   .Contenedor_de_suplementos{
+       padding: 20px 30px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+   
+   
+   
+   }
+   
+   .Contenedor_de_suplementos figure{
+       width: 30%;
+       border: solid 1px white;
+       margin-bottom: 20px;
+       padding: 10 20px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       border-radius: 4px;
+   }
+   
+   /* .Contenedor_de_suplementos figure img{
+   
+     border:solid red 1px; */
+   
+     /*Ejemplo para saber si el contenido esta centrado */
+   
+   
+   .Contenedor_de_suplementos figure figcaption{
+       color: rgb(0, 255, 42);
+       font-size: 3rem;
+   }
+   
+   .Contenedor_de_suplementos figure p{
+       text-align: center;
+   
+   }
+   
+   .Contenedor_de_suplementos figure button{
+       border: none;
+       background-color: rgb(221, 0, 221);
+       color: aliceblue;
+       padding-top: 6px;
+       border-radius: 4px;
+       margin: 10px;
+       
+   }
+   
+   .Contenedor_de_suplementos figure button:hover{
+       cursor: pointer;
+       background-color: rgb(205, 95, 209);
+   }
+   
+   
+   .butto_comprar{
+       color: black;
+   }
+   
+   
+   /* HORARIOSSS */
+   
+   .CONTENEDOR_DE_FOOTER{
+       background-color: black;
+       
+   
+   
+   
+   }
+   
+   .imangen_de_horarios{ 
+       background-image: url("../img/horarios.jpg");
+       width: 900px;
+       height: 600px;
+       background-size: cover;
+       display: flex;
+   
+   
+   
+   
+   }
+   
+   
+   /* footerr */
+   
+   #enlaces{
+       color: rgb(255, 255, 255);
+   }
+   
+    .miniatura{ width: 120px;}
+   
+    .lorem{
+       text-align: end;
+    padding: 20px;
+   
+   
+   }
+   
+   
+   
+   
+   .NUESTRASREDES{
+   
+   color:aliceblue ;
+   
+   
+   
+   }
+   
+   
+   /* CONTACTO */
+   
+   
+   .contacto_datos{
+       padding-top: 8%;
+   }
+   
+   .main_contacto{
+   
+       padding-top: 120px ;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /* CONTACTOO */
+   
+   
+   
+   /* REDESSSSS*/
+   
+   
+   
+   .facebook{
+       height: 70px; 
+       margin: 30px;
+   
+   }
+   
+   .twiter{
+       height: 70px;
+       margin: 30px;
+   
+   
+   }
+   .instagram{
+       height: 70px; 
+       margin: 30px;
+   
+   }
+   .wsp{
+       height: 70px; 
+       margin: 30px;
+   
+   
+   }
+   
+   /* FOOTER */
+   
+   .p_de_footer{
+       display:flex;
+       flex-direction:column; 
+       cursor: pointer;
+   
+       /* llevaría al enlace de politica, defensa,terminos */
+   }
+   
+   
+   .NUESTRASREDES{
+   
+       display: flex;
+       justify-content: center;
+       color: rgb(255, 255, 255);}
+   
+   
+   
+   .INSTAGRAM_TWITTER_FACEBOOK{ 
+       
+       background-color: rgb(0, 0, 0);
+   }
+   
+   
+   
+   .gmail_div{
+   
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    
+   
+   }
+   
+   .gmail{
+       padding-top: 80px;
+      
+   }
+   
+   
+   
+   /* Barra de scroll */
+   
+   .body::-webkit-scrollbar{
+   
+       background-color: rgb(0, 255, 34);
+   
+       border-radius: 7px;
+   
+       border-right: 2px;
+   
+   
+   }
+   
+   .body::-webkit-scrollbar{
+   
+       width: 7px;
+       
+      }
+      
+   /* LOGIN */
+   .container_article{
+       margin-top: 10% ;
+       padding: 10% 0% 5% 10%;
+   }
+   /* contenedor de correo */div.row.mb-3{
+       margin-top: 5%};
+       .col-form-label{
+           margin-left: 78%;
+       }
+   .correo_contenido{
+       width: 30%;
+   }
+   .p_correo{
+       margin-left: 42%;
+      
+   }
+   
+   /* contenido de correo */.form-control{
+       width: 30%;
+       margin-left: 45%;
+   }
+   
+   
+   /* boton contraseña */ .form-check{
+       margin-left: 32%;
+   }
+   
+   /* contraseña */ 
+   
+   .entrar{
+       margin-left: 35%;
+       width: 30%;
+   }
+   .contraseña{display: flex;
+                justify-content: center;}
+   .registrate{
+       display: flex;
+       justify-content: center;
+       
+   }
+   .contraseña_contenido{
+       width: 30%;
+       margin-left: 45%;
+   }
+   
+   /* Contraseña */.col-sm-2 {
+       margin-left: 45%;
+   }
+   
+   
+   /* LOGIN */
+   
+      /* DEKSTOP */
+      .ul_navbar_escritorio{
+       display: flex;
+       gap: 2rem;
+       list-style: none;
+         
+      }
+      
+   /* DEKSTOP */
+      
+   
+   
+      /*                                    MOVIL INDEX */
+   
+      @media(max-width:768px) and (min-width:0px){
+     
+       .navbar_escritorio{
+           display: none;
+          
+       }
+       
+       .navbar-toggler{
+           display: inline;
+           list-style: none;
+       }
+           *{
+               
+               margin: 0%;
+               padding: 0%;
+               box-sizing: border-box;}
+   
+               #menu{ display: flex;
+          justify-content:space-between;
+          align-items:center;
+   
+       }
+   
+        
+       
+       .miniatura{ width: 14%;
+           display: flex;
+           justify-content: start;
+       
+       
+       }
+   
+       .texto1{
+           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+           color: rgb(134, 239, 28); 
+           margin-top: 20vh;
+           padding: 0 4rem 0 4rem;
+       }
+       
+       .imagen2{
+           border-radius: 2%;
+           width: 100%;
+           padding-top: 4%;
+       }
+       
+       .imagen1{
+   
+           width: 100%;
+           border-radius: 2%;
+           margin-top: 2%;
+       }
+       
+   
+           
+       .conteiner_index{
+            background-image: url(../img/index3.jpg);
+            background-size: cover;
+            display: grid;
+            width: 100%;
+            height: 100%;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr ,1fr;
+            gap: 200px;
+            margin-bottom: 32fr;
+         
+           padding: 24fr;
+   
+            grid-template-rows: 
+            "one"  
+            "two" 
+            "three"
+            "four"
+            "five"
+            "six";
+       }
+   
+       .conteiner_index img{width: 50%;
+   
+       }
+   
+   
+       .a{
+           margin-bottom: 10%;
+           grid-area: one;
+           display: flex;
+       }
+       .b{
+           margin-bottom: 50fr;
+           grid-area: two;
+           display: flex;
+           justify-content: center;
+       
+   
+       }
+       .c{ margin-bottom: 50fr;
+           grid-area: three;
+           display: flex;
+           justify-content: center;
+   
+       }
+       .d{grid-area: four;
+            margin-bottom: 10%;
+           display: flex; 
+           justify-content: center;
+        }
+   
+       .e{grid-area: five; 
+       margin-bottom: 10%;
+       display: flex;
+       justify-content: center;
+       width: 100%;
+           }
+   
+       .f{margin-bottom: 10%;
+           grid-area: six;
+       }
+   *{
+       list-style: none;    
+   } 
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /* LOOGINN */
+   @media(max-width:992px) and (min-width:320px){
+   
+           }
+               *{
+                   
+                   margin: 0%;
+                   padding: 0%;
+                   box-sizing: border-box;}
+       
+      
+       
+   .container_article{
+       margin-top: 30% ;
+       padding: 10% 0% 5% 10%;
+   }
+   /* contenedor de correo */div.row.mb-3{
+       margin-top: 4%};
+       .col-form-label{
+           margin-left: 78%;
+       }
+   
+       .contraseña_contenido{
+           width: 60%;
+           margin-left: 25%;
+       }
+   
+       .correo_contenido{
+       width: 650%;
+   
+   }
+   .p_correo{
+       margin-left: 30%;
+      
+   }
+   /* Parrafo contraseña */
+   .col-form-label{ margin-left: 33%;
+   
+    }
+   
+    .form-control{ /* contenido de correo */
+       width: 60%;
+       margin-left: 25%;
+   }
+   
+   
+   /* boton contraseña */ .form-check{
+       margin-left: 25%;
+   }
+   
+   form-check-label{margin-left: 2;}
+   
+   /* contraseña */ 
+   .entrar{
+       margin-left: 35%;
+       width: 30%;
+       
+   }
+   
+   .contraseña{display: flex;
+                justify-content: center;}
+   
+                .registrate{
+       display: flex;
+       justify-content: center;
+       
+   }
+   
+   
+   .NUESTRASREDES{
+       margin-top: 38%; 
+       display: flex;ll
+       justify-content: center;
+       color: rgb(255, 255, 255);}
+    
+   }
+   
+   @media(max-width:1400px) and (min-width:575px){
+   
+     
+       .navbar_escritorio{
+           display: none;
+          
+       }
+       
+       .navbar-toggler{
+           display: inline;
+           list-style: none;
+       }
+           *{
+               
+               margin: 0%;
+               padding: 0%;
+               box-sizing: border-box;}
+   
+   
+   
+   .container_article{
+   margin-top: 30% ;
+   padding: 10% 0% 5% 10%;
+   }
+   /* contenedor de correo */div.row.mb-3{
+   margin-top: 4%};
+   .col-form-label{
+       margin-left: 78%;
+   }
+   
+   .contraseña_contenido{
+       width: 60%;
+       margin-left: 25%;
+   }
+   
+   .correo_contenido{
+   width: 650%;
+   
+   }
+   .p_correo{
+   margin-left: 30%;
+   
+   }
+   /* Parrafo contraseña */
+   .col-form-label{ margin-left: 33%;
+   
+   }
+   
+   .form-control{ /* contenido de correo */
+   width: 60%;
+   margin-left: 25%;
+   }
+   
+   
+   /* boton contraseña */ .form-check{
+   margin-left: 25%;
+   }
+   
+   form-check-label{margin-left: 2;}
+   
+   /* contraseña */ 
+   .entrar{
+   margin-left: 35%;
+   width: 30%;
+   
+   }
+   
+   .contraseña{display: flex;
+            justify-content: center;}
+   
+            .registrate{
+   display: flex;
+   justify-content: center;
+   
+   }
+   
+   
+   .NUESTRASREDES{
+   margin-top: 38%; 
+   display: flex;
+   justify-content: center;
+   color: rgb(255, 255, 255);}
+   
+   }
+   }
