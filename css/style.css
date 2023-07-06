@@ -762,9 +762,9 @@
    
    
    /* LOOGINN */
-   @media(max-width:992px) and (min-width:320px){
+   @media(max-width:992px) and (min-width:0px){
    
-           }
+           
                *{
                    
                    margin: 0%;
@@ -793,46 +793,52 @@
    
    }
    .p_correo{
-       margin-left: 30%;
+       margin-left: 15%;
       
    }
    /* Parrafo contraseña */
-   .col-form-label{ margin-left: 33%;
+   .col-form-label{ margin-left: 25%;
    
     }
    
     .form-control{ /* contenido de correo */
        width: 60%;
-       margin-left: 25%;
+       margin-left: 20%;
    }
    
    
    /* boton contraseña */ .form-check{
-       margin-left: 25%;
+       margin-left: 23%;
    }
    
    form-check-label{margin-left: 2;}
    
    /* contraseña */ 
    .entrar{
-       margin-left: 35%;
+       margin-left: 25%;
        width: 30%;
        
    }
    
-   .contraseña{display: flex;
+   .contraseña{
+    margin-left: -20%;
+    display: flex;
                 justify-content: center;}
    
-                .registrate{
+       .registrate{
+        margin-top: -4%;
+        font-size: 70%;
+        margin-left: -20%;
        display: flex;
        justify-content: center;
-       
+    
+
    }
    
    
    .NUESTRASREDES{
        margin-top: 38%; 
-       display: flex;ll
+       display: flex;
        justify-content: center;
        color: rgb(255, 255, 255);}
     
@@ -859,7 +865,7 @@
    
    
    .container_article{
-   margin-top: 30% ;
+   margin-top: 20% ;
    padding: 10% 0% 5% 10%;
    }
    /* contenedor de correo */div.row.mb-3{
@@ -869,7 +875,7 @@
    }
    
    .contraseña_contenido{
-       width: 60%;
+       width: 100%;
        margin-left: 25%;
    }
    
@@ -893,14 +899,14 @@
    
    
    /* boton contraseña */ .form-check{
-   margin-left: 25%;
+   margin-left: 15%;
    }
    
    form-check-label{margin-left: 2;}
    
    /* contraseña */ 
    .entrar{
-   margin-left: 35%;
+   margin-left: 29%;
    width: 30%;
    
    }
@@ -922,4 +928,4 @@
    color: rgb(255, 255, 255);}
    
    }
-   }
+   
