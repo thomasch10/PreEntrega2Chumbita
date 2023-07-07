@@ -733,7 +733,9 @@
            justify-content: center;
         }
    
-       .e{grid-area: five; 
+       .e{
+        width: 500%;
+        grid-area: five; 
        margin-bottom: 10%;
        display: flex;
        justify-content: center;
@@ -840,11 +842,28 @@
        margin-top: 38%; 
        display: flex;
        justify-content: center;
-       color: rgb(255, 255, 255);}
+       color: rgb(255, 255, 255);
+
+    }
+
+    .INSTAGRAM_TWITTER_FACEBOOK{
+         grid-template-columns: 1fr;
+        grid-template-rows: 2;
+    grid-area: redes_sociales
+                politica_y_condiciones
+                gmail_div;
+            display: grid;
+        }
+ 
+                .redes_sociales{grid-area: "redes_sociales";}
+ 
+     .politica_y_condiciones{grid-area:"politica_y_condiciones" ;}
+
+     .gmail_div{grid-area: "gmail_div";}
+ 
+     .p_de_footer{ list-style: none;}
     
-   }
-   
-   @media(max-width:1400px) and (min-width:575px){
+   @media(max-width:1400px)and(min-width:575px){ 
    
      
        .navbar_escritorio{
@@ -869,7 +888,8 @@
    padding: 10% 0% 5% 10%;
    }
    /* contenedor de correo */div.row.mb-3{
-   margin-top: 4%};
+   margin-top: 4%;}
+
    .col-form-label{
        margin-left: 78%;
    }
