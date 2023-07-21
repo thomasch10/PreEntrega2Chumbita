@@ -79,6 +79,8 @@
        
    }
    
+
+
    /*                                    MOVIL INDEX */
    
    
@@ -217,9 +219,6 @@
    
    /* BARRA FIXED */
      
-   
-   
-   
    /* Padding para tener espacio entre el fixed y el main */
    
    
@@ -384,40 +383,32 @@
        margin: 10px;
        
    }
-   
    .Contenedor_de_suplementos figure button:hover{
        cursor: pointer;
        background-color: rgb(205, 95, 209);
    }
-   
-   
+    
    .butto_comprar{
        color: black;
    }
-   
-   
    /* HORARIOSSS */
-   
+
+
+
+
    .CONTENEDOR_DE_FOOTER{
-       background-color: black;
-       
-   
-   
-   
-   }
-   
-   .imangen_de_horarios{ 
-       background-image: url("../img/horarios.jpg");
-       width: 900px;
-       height: 600px;
-       background-size: cover;
-       display: flex;
-   
-   
-   
-   
-   }
-   
+       background-color: black;   }
+
+       .horarios_img{
+        width: 70%;
+        margin-top: 10%;
+        display: flex;
+        margin-left: 16%;
+        border-radius: 5%;
+        background-repeat: no-repeat;
+        
+       }
+    .body_horarios{ background-color: black;}
    
    /* footerr */
    
@@ -448,170 +439,279 @@
    
    /* CONTACTO */
    
-   
-   .contacto_datos{
-       padding-top: 8%;
+   .div_contact{
+    margin-top: 12%;
+    min-width: 100vh;
+    background: #08071d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/Contact.jpg)
    }
-   
-   .main_contacto{
-   
-       padding-top: 120px ;
-   }
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   /* CONTACTOO */
-   
-   
-   
+
+   .div_contact .form_contact{
+    width: 670px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow:  20px 20px 50px rgba (0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255.0.1);
+    backdrop-filter:  blur (10px);
+    flex-wrap: wrap;}
+
+    .div_contact .form_contact .titulo_contacto{
+        color: #fff;
+        font-weight: 500;
+        margin-top: 20px;
+        width: 500px;
+        text-align: center;
+    }
+
+    .div_contact .form_contact .input_contacto{
+        width: 290px; 
+        height: 50px;
+        padding-left: 10px;
+        outline: none; 
+        border-radius: 40px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        color: #000000;
+        background-color: #fff;
+        }
+        
+        .div_contact .form_contact .input_contacto::placeholder{
+            color: #000000;
+        }
+
+        .input_contacto{color: black;}
+
+        .div_contact .form_contact .titulo_contacto{
+            color: rgb(255, 255, 255);
+            font-weight: 600px;
+            margin-top: 20px;
+        }
+
+        .div_contact .form_contact .textarea_contact{
+       
+            color: black;
+            border: 30px;
+            border-bottom: 2px solid color( rgb(0, 0, 0));
+            font-weight: 200;
+            font-size: 15px;
+            padding: 10px;
+            outline: none;
+            min-width: 600px;
+            max-width: 600px;
+            min-height: 80px;
+            max-height: 80px;
+        }
+
+        .textarea_contact{
+            width: 1em;
+        }
+
+        .textarea_contact.textarea_contact:-webkit-skrollbar-thub{
+            background-color: rgba( rgb(0, 0, 0));
+        }
+
+        .div_contact .form_contact .lastname,
+        .div_contact .form_contact .mobile{
+            margin-left: 2px; 
+       
+         }
+            
+        
+        .div_contact .form_contact .titulo_contacto{
+            color: #fff;
+            font-weight: 300;
+            width: 600px;
+            margin-top: 20px;
+        }
+
+        .div_contact .div_contact .textarea_contact{
+        
+            color: #fff;
+            font-weight: 200;
+            font-size: 15px;
+            padding: 10px;
+            outline: none;
+            min-width: 600px;
+            max-width: 600px;
+            min-height: 80px;
+            max-height: 80px;
+        }
+        .textarea_contact::-webkit-scrollbar{
+            width: 1em;
+        }
+        .div_contact .form_contact 
+ 
+        /* CONTACT RESPONSIVE */
+  
+
    /* REDESSSSS*/
-   
-   
+   .politica_y_condiciones{
+    display: flex;
+    justify-content: center;
+   }
    
    .facebook{
        height: 70px; 
-       margin: 30px;
-   
-   }
+       margin: 30px; }
    
    .twiter{
        height: 70px;
-       margin: 30px;
-   
-   
-   }
+       margin: 30px;   }
+
    .instagram{
        height: 70px; 
-       margin: 30px;
-   
-   }
+       margin: 30px; }
    .wsp{
        height: 70px; 
-       margin: 30px;
-   
-   
-   }
+       margin: 30px;}
    
    /* FOOTER */
    
    .p_de_footer{
        display:flex;
-       flex-direction:column; 
+       flex-direction:column;
        cursor: pointer;
-   
-       /* llevaría al enlace de politica, defensa,terminos */
-   }
+       list-style: none;}
    
    
-   .NUESTRASREDES{
+   .INSTAGRAM_TWITTER_FACEBOOK{
    
        display: flex;
-       justify-content: center;
-       color: rgb(255, 255, 255);}
-   
-   
-   
-   .INSTAGRAM_TWITTER_FACEBOOK{ 
-       
+       flex-direction: column;
+       color: rgb(255, 255, 255);
+       align-items: center;
        background-color: rgb(0, 0, 0);
-   }
+    }
    
-   
+   .e{ display: flex;
+       justify-content: center;}
    
    .gmail_div{
-   
-       display: flex;
-       justify-content: center;
-       align-items: center;
-    
+
    
    }
-   
    .gmail{
-       padding-top: 80px;
+       padding-top: 2% ;
       
    }
    
    
-   
-   /* Barra de scroll */
-   
-   .body::-webkit-scrollbar{
-   
-       background-color: rgb(0, 255, 34);
-   
-       border-radius: 7px;
-   
-       border-right: 2px;
-   
-   
-   }
-   
-   .body::-webkit-scrollbar{
-   
-       width: 7px;
-       
-      }
-      
-   /* LOGIN */
-   .container_article{
-       margin-top: 10% ;
-       padding: 10% 0% 5% 10%;
-   }
-   /* contenedor de correo */div.row.mb-3{
-       margin-top: 5%};
-       .col-form-label{
-           margin-left: 78%;
-       }
-   .correo_contenido{
-       width: 30%;
-   }
-   .p_correo{
-       margin-left: 42%;
-      
-   }
-   
-   /* contenido de correo */.form-control{
-       width: 30%;
-       margin-left: 45%;
-   }
-   
-   
-   /* boton contraseña */ .form-check{
-       margin-left: 32%;
-   }
-   
-   /* contraseña */ 
-   
-   .entrar{
-       margin-left: 35%;
-       width: 30%;
-   }
-   .contraseña{display: flex;
-                justify-content: center;}
-   .registrate{
-       display: flex;
-       justify-content: center;
-       
-   }
-   .contraseña_contenido{
-       width: 30%;
-       margin-left: 45%;
-   }
-   
-   /* Contraseña */.col-sm-2 {
-       margin-left: 45%;
-   }
    
    
    /* LOGIN */
    
+
+   .Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../img/login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;}
+
+    .wrapper{
+        width: 420px;
+        background: transparent;
+        border: 2px solid rgba (255, 255,255, .2 );
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 10px rgba (0,0,0, .2);
+        color: #fff;
+        border-radius: 10px; 
+                padding: 30px 40px;}
+        
+        .wrapper h1{
+            font-size: 36px;
+            text-align: center;}
+
+   .wrapper .input_box{
+    position: relative ;
+        width:100%;
+        height: 50px; 
+        margin: 30px 0;}
+
+        .input_box .contenido {
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border:2px solid rgba(255,255,255, .2);
+            border-radius: 40px; 
+            font-size: 16px;
+            color: #fff;
+            padding: 20px 45px 20px 20px;
+        }
+
+        .input_box input::placeholder{
+            color: #fff;
+        }
+   
+        .input_box .logo_login{
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50);
+            font-size: 20px;
+        }
+
+
+        .wrapper .cotainer_boton{
+            display: flex;
+            justify-content: space-between;
+            font-size: 14.5px;
+            margin: -15px 0 15px;        }
+
+        .container_boton .check .label_login{
+            accent-color: #fff;
+            margin-right: 3px;}
+       
+
+            .container_boton .a_class{
+                color: #fff;
+                text-decoration: none;
+             }
+
+             .container_boton .a_class:hover{
+                text-decoration: underline;
+             }
+
+             .wrapper .btn{
+                width: 100%;
+                height: 100%;
+                background:#fff;
+                border: none;
+                outline: none;
+                border-radius: 40px;
+                box-shadow: 0 0 10px rgba(0,0,0, .1);
+                cursor: pointer;
+                font-size:16px ;
+                color: #333;
+                font-weight: 600;             }
+
+                .wrapper .register_link{
+                    font-size: 14.5px;
+                    text-align: center;
+                    margin: 20px 0 15px ; }
+                
+                    .registrate .register_link .todavía{
+                        color: #fff;
+                        text-decoration: none;
+                        font-weight: 600;
+                    }
+
+                    .registrate .register_link .todavía:hover{
+                        text-decoration: underline;
+                    }
+                     /* LOGINNNNNNN */
+
+
       /* DEKSTOP */
       .ul_navbar_escritorio{
        display: flex;
@@ -655,7 +755,6 @@
            display: flex;
            justify-content: start;
        
-       
        }
    
        .texto1{
@@ -690,9 +789,8 @@
             grid-template-columns: 1fr;
             grid-template-rows: 1fr ,1fr;
             gap: 200px;
-            margin-bottom: 32fr;
-         
-           padding: 24fr;
+            margin-bottom: 32fr;         
+            padding: 24fr;
    
             grid-template-rows: 
             "one"  
@@ -753,90 +851,12 @@
    
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   /* LOOGINN */
-   @media(max-width:992px) and (min-width:0px){
-   
-           
-               *{
-                   
-                   margin: 0%;
-                   padding: 0%;
-                   box-sizing: border-box;}
-       
-      
-       
-   .container_article{
-       margin-top: 30% ;
-       padding: 10% 0% 5% 10%;
-   }
-   /* contenedor de correo */div.row.mb-3{
-       margin-top: 4%};
-       .col-form-label{
-           margin-left: 78%;
-       }
-   
-       .contraseña_contenido{
-           width: 60%;
-           margin-left: 25%;
-       }
-   
-       .correo_contenido{
-       width: 650%;
-   
-   }
-   .p_correo{
-       margin-left: 15%;
-      
-   }
-   /* Parrafo contraseña */
-   .col-form-label{ margin-left: 25%;
-   
-    }
-   
-    .form-control{ /* contenido de correo */
-       width: 60%;
-       margin-left: 20%;
-   }
-   
-   
-   /* boton contraseña */ .form-check{
-       margin-left: 23%;
-   }
-   
-   form-check-label{margin-left: 2;}
-   
-   /* contraseña */ 
-   .entrar{
-       margin-left: 25%;
-       width: 30%;
-       
-   }
-   
-   .contraseña{
-    margin-left: -20%;
-    display: flex;
-                justify-content: center;}
-   
-       .registrate{
-        margin-top: -4%;
-        font-size: 70%;
-        margin-left: -20%;
-       display: flex;
-       justify-content: center;
-    
 
-   }
+   /* LOOGINN */
+   @media (min-width:0px) and (max-width:992px){
    
+
+    
    
    .NUESTRASREDES{
        margin-top: 38%; 
@@ -847,11 +867,12 @@
     }
 
     .INSTAGRAM_TWITTER_FACEBOOK{
-         grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: 2;
-    grid-area: redes_sociales
-                politica_y_condiciones
-                gmail_div;
+        grid-area: 
+                "redes_sociales"
+                "politica_y_condiciones"
+                "gmail_div";
             display: grid;
         }
  
@@ -922,7 +943,7 @@
    margin-left: 15%;
    }
    
-   form-check-label{margin-left: 2;}
+   .form-check-label{margin-left: 2;}
    
    /* contraseña */ 
    .entrar{
@@ -954,3 +975,22 @@
    
    }
    
+ /* Contacto responsive */
+
+ @media (max-width:500px) {
+
+    
+
+    .form_contact{
+        margin-top: 12%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+        height: auto;
+        width: auto;
+        }
+          
+}
